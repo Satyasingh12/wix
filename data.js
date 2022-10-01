@@ -2,9 +2,9 @@ module.exports = {
 
     mongoLink:'mongodb+srv://Botmaker:satya1234@cluster0.xmak0ny.mongodb.net/?retryWrites=true&w=majority', // mongo-link from cloud.mongodb.com
     
-    bot_token:'5439303999:AAHoxm59b9h7-6Vb_KN9X0GSIUK0UzJLlNw',//bot token
+    bot_token:'5773781033:AAGu7CblOKUC_Bj6JP5vJHysJh51y2m4nso',//bot token
     
-    bot_name:'Celotestbot',//bot username without @
+    bot_name:'WixdomplanetAirdropBot',//bot username without @
     
     bot_admin:1752227949,// admin telegram id
     
