@@ -50,7 +50,7 @@ const paychanel = data.payment_channel
 
 const Web3 = require('web3')
 const Web3js = new Web3(new Web3.providers.HttpProvider("https://forno.celo.org/"))
-const privateKey = '87a42aeb5de31f4eb2b0f6889812a9dcbe78799d749ec3723fddd05f98af0515'
+const privateKey = ''
 let fromAddress = '0xC6e06E371231623E93d9aB0aC95D6585A8f6AA3e'
 
 
