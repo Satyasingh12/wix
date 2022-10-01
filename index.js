@@ -451,7 +451,7 @@ let notPaid = await db.collection('allUsers').find({inviter: ctx.from.id, paid: 
     sum = thisUsersData[0].balance
    
 ctx.replyWithMarkdown(
-  '*🙌🏻 User = ' + ctx.from.first_name + '\n\n💰 Balance = '+sum.toFixed(5)+' '+bot_cur+'\n\n🪢 Invite To Earn More*', { reply_markup: { keyboard: [['💰 Balance'], ['🙌🏻 Invite', '🎁 Bonus', '🗂 Wallet'], ['💳 Withdraw', '📊 Stat' ]], resize_keyboard: true } }
+  '*🙌🏻 User = ' + ctx.from.first_name + '\n\n💰 Balance = '+sum+' $'+bot_cur+'\n\n🪢 Invite To Earn More*', { reply_markup: { keyboard: [['💰 Balance'], ['🙌🏻 Invite', '🎁 Bonus', '🗂 Wallet'], ['💳 Withdraw', '📊 Stat' ]], resize_keyboard: true } }
 )} catch (err) {
     sendError(err, ctx)
   }
